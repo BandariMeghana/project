@@ -1,0 +1,28 @@
+header{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    background-color: black;
+}
+header img{
+    width:200%
+}
+header ul{
+    display: grid;
+    grid-template-columns:repeat(5,1fr) ;
+
+}
+ul li{
+    list-style-type: none;
+
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    color:white;
+    background-color: black;
+}
+a{
+color:white;
+}
+
+
